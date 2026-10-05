@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Teacher Dashboard</title>
+
+<link rel="stylesheet"
+href="css/style.css">
+
+</head>
+
+
+<body>
+
+<div class="dashboard">
+
+
+<aside class="sidebar">
+
+<div class="sidebar-brand">
+
+<div class="logo">
+T
+</div>
+
+<h2>
+Teacher
+</h2>
+
+</div>
+
+
+<nav>
+
+<a href="#">
+Dashboard
+</a>
+
+<a href="#">
+My Classes
+</a>
+
+<a href="#">
+Students
+</a>
+
+<a href="#">
+Attendance
+</a>
+
+<a href="#">
+Homework
+</a>
+
+<a href="#">
+Exam Results
+</a>
+
+<a href="#">
+Notices
+</a>
+
+<a href="#">
+Parent Messages
+</a>
+
+<a href="#">
+Student Performance
+</a>
+
+<a href="#">
+Activities
+</a>
+
+<a href="#">
+Calendar
+</a>
+
+<a href="#">
+My Profile
+</a>
+
+</nav>
+
+</aside>
+
+
+<div class="dashboard-main">
+
+
+<header class="dashboard-header">
+
+<div>
+
+<h1>
+Teacher Dashboard
+</h1>
+
+<p>
+
+Welcome,
+
+<span id="teacherName"></span>
+
+</p>
+
+</div>
+
+
+<button
+onclick="logout()"
+class="btn btn-danger">
+
+Logout
+
+</button>
+
+</header>
+
+
+<main class="dashboard-content">
+
+
+<section class="stats-grid">
+
+
+<div class="stat-card">
+
+<h3>
+My Students
+</h3>
+
+<strong>
+38
+</strong>
+
+</div>
+
+
+<div class="stat-card">
+
+<h3>
+Present Today
+</h3>
+
+<strong>
+35
+</strong>
+
+</div>
+
+
+<div class="stat-card">
+
+<h3>
+Absent
+</h3>
+
+<strong>
+3
+</strong>
+
+</div>
+
+
+<div class="stat-card">
+
+<h3>
+Homework
+</h3>
+
+<strong>
+5
+</strong>
+
+</div>
+
+
+</section>
+
+
+<section class="panel">
+
+<h2>
+My Class
+</h2>
+
+
+<div class="class-information">
+
+<p>
+<strong>Class:</strong>
+8
+</p>
+
+<p>
+<strong>Section:</strong>
+A
+</p>
+
+<p>
+<strong>Class Teacher:</strong>
+<span id="teacherClassName">
+Class Teacher
+</span>
+</p>
+
+</div>
+
+</section>
+
+
+<section class="panel">
+
+<h2>
+Student Attendance
+</h2>
+
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+Roll No
+</th>
+
+<th>
+Student
+</th>
+
+<th>
+Status
+</th>
+
+<th>
+Action
+</th>
+
+</tr>
+
+</thead>
+
+
+<tbody>
+
+<tr>
+
+<td>
+01
+</td>
+
+<td>
+Student One
+</td>
+
+<td>
+Present
+</td>
+
+<td>
+
+<button class="btn btn-small">
+Update
+</button>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+02
+</td>
+
+<td>
+Student Two
+</td>
+
+<td>
+Present
+</td>
+
+<td>
+
+<button class="btn btn-small">
+Update
+</button>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+03
+</td>
+
+<td>
+Student Three
+</td>
+
+<td>
+Absent
+</td>
+
+<td>
+
+<button class="btn btn-small">
+Update
+</button>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</section>
+
+
+<section class="panel">
+
+<h2>
+Teacher Tools
+</h2>
+
+
+<div class="management-grid">
+
+
+<div class="management-card">
+
+<h3>
+Homework
+</h3>
+
+<p>
+Create homework for
+your students.
+</p>
+
+<button class="btn btn-small">
+Add Homework
+</button>
+
+</div>
+
+
+<div class="management-card">
+
+<h3>
+Results
+</h3>
+
+<p>
+Enter examination marks
+and results.
+</p>
+
+<button class="btn btn-small">
+Enter Results
+</button>
+
+</div>
+
+
+<div class="management-card">
+
+<h3>
+Parent Messages
+</h3>
+
+<p>
+Private communication
+with authorized parents.
+</p>
+
+<button class="btn btn-small">
+Messages
+</button>
+
+</div>
+
+
+<div class="management-card">
+
+<h3>
+Student Performance
+</h3>
+
+<p>
+Update monthly student
+performance.
+</p>
+
+<button class="btn btn-small">
+Performance
+</button>
+
+</div>
+
+
+<div class="management-card">
+
+<h3>
+Activities
+</h3>
+
+<p>
+Record indoor and outdoor
+school activities.
+</p>
+
+<button class="btn btn-small">
+Activities
+</button>
+
+</div>
+
+
+<div class="management-card">
+
+<h3>
+Achievements
+</h3>
+
+<p>
+Record student
+achievements.
+</p>
+
+<button class="btn btn-small">
+Achievements
+</button>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+</main>
+
+</div>
+
+</div>
+
+
+<script src="js/app.js"></script>
+
+<script src="js/teacher.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Parent Dashboard</title>
+
+<link rel="stylesheet"
+href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="dashboard">
+
+
+<aside class="sidebar">
+
+<div class="sidebar-brand">
+
+<div class="logo">
+P
+</div>
+
+<h2>
+Parent
+</h2>
+
+</div>
+
+
+<nav>
+
+<a href="#">
+Dashboard
+</a>
+
+<a href="#">
+Student Profile
+</a>
+
+<a href="#">
+Attendance
+</a>
+
+<a href="#">
+Homework
+</a>
+
+<a href="#">
+Exam Results
+</a>
+
+<a href="#">
+Performance
+</a>
+
+<a href="#">
+Achievements
+</a>
+
+<a href="#">
+Notices
+</a>
+
+<a href="#">
+Messages
+</a>
+
+<a href="#">
+Leave Request
+</a>
+
+<a href="#">
+Calendar
+</a>
+
+<a href="#">
+Teacher Profile
+</a>
+
+</nav>
+
+</aside>
+
+
+<div class="dashboard-main">
+
+
+<header class="dashboard-header">
+
+<div>
+
+<h1>
+Parent Dashboard
+</h1>
+
+<p>
+
+Welcome,
+
+<span id="parentName"></span>
+
+</p>
+
+</div>
+
+
+<button
+onclick="logout()"
+class="btn btn-danger">
+
+Logout
+
+</button>
+
+</header>
+
+
+<main class="dashboard-content">
+
+
+<section class="panel">
+
+<h2>
+Student Profile
+</h2>
+
+
+<div class="student-profile">
+
+
+<div class="student-avatar">
+
+ST
+
+</div>
+
+
+<div>
+
+<h3>
+Student Name
+</h3>
+
+<p>
+Class 8 - Section A
+</p>
+
+<p>
+Roll Number: 01
+</p>
+
+</div>
+
+</div>
+
+
+<div class="profile-grid">
+
+
+<div>
+
+<label>
+Blood Group
+</label>
+
+<strong>
+O+
+</strong>
+
+</div>
+
+
+<div>
+
+<label>
+Gender
+</label>
+
+<strong>
+Student
+</strong>
+
+</div>
+
+
+<div>
+
+<label>
+Academic Year
+</label>
+
+<strong>
+2026-27
+</strong>
+
+</div>
+
+
+<div>
+
+<label>
+Class Teacher
+</label>
+
+<strong>
+Class Teacher
+</strong>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<section class="stats-grid">
+
+
+<div class="stat-card">
+
+<h3>
+Attendance
+</h3>
+
+<strong>
+94%
+</strong>
+
+</div>
+
+
+<div class="stat-card">
+
+<h3>
+Overall Result
+</h3>
+
+<strong>
+86%
+</strong>
+
+</div>
+
+
+<div class="stat-card">
+
+<h3>
+Homework Pending
+</h3>
+
+<strong>
+2
+</strong>
+
+</div>
+
+
+<div class="stat-card">
+
+<h3>
+Achievements
+</h3>
+
+<strong>
+4
+</strong>
+
+</div>
+
+
+</section>
+
+
+<section class="panel">
+
+<h2>
+Academic Performance
+</h2>
+
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+Subject
+</th>
+
+<th>
+Marks
+</th>
+
+<th>
+Grade
+</th>
+
+</tr>
+
+</thead>
+
+
+<tbody>
+
+<tr>
+
+<td>
+Mathematics
+</td>
+
+<td>
+92
+</td>
+
+<td>
+A+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+Science
+</td>
+
+<td>
+88
+</td>
+
+<td>
+A
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+English
+</td>
+
+<td>
+84
+</td>
+
+<td>
+A
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+Social Studies
+</td>
+
+<td>
+81
+</td>
+
+<td>
+A
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</section>
+
+
+<section class="panel">
+
+<h2>
+Parent Services
+</h2>
+
+
+<div class="management-grid">
+
+
+<div class="management-card">
+
+<h3>
+Homework
+</h3>
+
+<p>
+View homework assigned
+by teachers.
+</p>
+
+<button class="btn btn-small">
+View Homework
+</button>
+
+</div>
+
+
+<div class="management-card">
+
+<h3>
+Messages
+</h3>
+
+<p>
+Private communication
+with the class teacher.
+</p>
+
+<button class="btn btn-small">
+Open Messages
+</button>
+
+</div>
+
+
+<div class="management-card">
+
+<h3>
+Leave Request
+</h3>
+
+<p>
+Submit student leave
+requests.
+</p>
+
+<button class="btn btn-small">
+Apply Leave
+</button>
+
+</div>
+
+
+<div class="management-card">
+
+<h3>
+Calendar
+</h3>
+
+<p>
+School events and
+parent-teacher meetings.
+</p>
+
+<button class="btn btn-small">
+Calendar
+</button>
+
+</div>
+
+
+<div class="management-card">
+
+<h3>
+Student Performance
+</h3>
+
+<p>
+View monthly academic
+improvement.
+</p>
+
+<button class="btn btn-small">
+Performance
+</button>
+
+</div>
+
+
+<div class="management-card">
+
+<h3>
+Achievements
+</h3>
+
+<p>
+View student school
+achievements.
+</p>
+
+<button class="btn btn-small">
+Achievements
+</button>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+</main>
+
+</div>
+
+</div>
+
+
+<script src="js/app.js"></script>
+
+<script src="js/parent.js"></script>
+
+</body>
+
+</html>
